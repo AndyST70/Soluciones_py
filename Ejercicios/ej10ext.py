@@ -6,7 +6,7 @@ ventana = tk.Tk()
 ventana.geometry("400x400")
 ventana.title("Reloj con Python y Tkinter")
 
-etiqueta_hora = tk.Label(ventana, font=("Arial", 24), bg="white")
+etiqueta_hora = tk.Label(ventana, font=("Arial", 24), bg="red")
 etiqueta_hora.pack(pady=50)
 
 def actualizar_hora():

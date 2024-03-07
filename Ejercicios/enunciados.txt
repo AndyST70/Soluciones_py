@@ -37,3 +37,75 @@ termina el juego. Las preguntas son:
 ● Si trabaja 40 horas o menos se le paga Q20 por hora
 ● Si trabaja más de 40 horas se le paga Q20 por cada una de las primeras 40 horas y Q25
 por cada hora extra.
+13. Una universidad estableció un programa para estimular a los estudiantes con buen rendimiento
+académico y que consiste en lo siguiente:
+Si el promedio es de 8.5 o más, entonces se le hará un 30% de descuento en la matrícula.
+Si el promedio es mayor o igual a 7 pero menor que 8.5 entonces se le hará un 10% de
+descuento.
+Si el promedio es mayor que 5.5 y menor que 7, no tendrá ningún descuento.
+Obtener el total que tendrá que pagar un estudiante de acuerdo a su matrícula y promedio
+actual.
+14. Elabore un programa en donde el usuario ingrese un número, y posteriormente muestre en
+pantalla la cantidad correspondiente de billetes en la que puede completarse ese monto. Debe
+utilizar los billetes empezando de la denominación mayor a la menor. Únicamente puede utilizar
+billetes de la siguiente denominación:
+• Q.50.00
+• Q.20.00
+• Q.10.00
+• Q.5.00
+• Q.1.00
+Ejemplo: Ingresa 1586 la salida debe indicar lo siguiente:
+• 31 Billete de Q.50.00
+• 1 Billete de Q.20.00
+• 1 Billete de Q.10.00
+• 1 Billete de Q.5.00
+• 1 Billete de Q.1.00
+15. Un programa donde el usuario debe ingresar 1 número y mostrar el resultado de calcular el
+factorial del número ingresado.
+Ejemplo: 5 = 5*4*3*2*1 = 120
+16. Elabore un programa que permita ingresar un número de 3 dígitos y posteriormente lo desglose
+en decenas, centenas y unidades.
+17. Un programa que permita realizar la conversión de un número binario a su equivalente número
+decimal, y viceversa.
+18. Escriba un programa que pida el ingreso de un número entre 1 y 99,999 y muestre en español la
+cantidad equivalente. Observe que los números tienden a repetirse y recuerde que novecientos,
+setecientos son casos especiales
+19. Considere el siguiente proceso repetitivo para un número entero dado:
+Si el número es 1 el proceso termina. De lo contrario, si es par se divide entre 2, y si es impar se
+multiplica por 3 y se le suma 1.
+Si empezamos con 6, por ejemplo, obtendremos la sucesión de números 6, 3, 10, 5, 16, 8, 4, 2, 1.
+La conjetura de Collatz dice que, a partir de cualquier número inicial, la sucesión obtenida
+siempre termina en 1.
+Escriba un programa que permita verificar la conjetura de Collatz para cualquier entero dado, y
+que imprima la secuencia correspondiente.
+Ciclo 2024
+20. Elaborar un programa que muestre un número decimal menor a 4000 en su correspondiente
+número romano. Para interpretar los números romanos hay que tener en cuenta una serie de
+reglas que os detallamos a continuación:
+● Los símbolos se escriben y se leen de izquierda a derecha, poniendo primero los de mayor
+valor.
+● El valor del número romano se obtiene sumando los valores de los símbolos, sin embargo,
+existe una excepción en la que, si un símbolo está a la izquierda de uno más grande,
+entonces restamos el valor del número más pequeño al número más grande (ejemplo: IV = 5
+-1 = 4).
+● El símbolo para el número 5 (V) siempre suman y no se pueden colocar a la izquierda de uno
+más grande. Además, no se puede colocar de forma consecutiva dos veces ya que para eso
+existe el número 10 en romano (X)
+● El símbolo del 1 (I) sólo se puede repetir como máximo tres veces de forma consecutiva en
+un mismo número romano.
+● En las restas hay que tener en cuenta que:
+o El 1 (I) sólo puede restar a los símbolos V y X
+o El 10 (X) sólo puede restar a L y C
+o El 100 (C) sólo puede restar a D y M
+● Además, se permite que dos símbolos diferentes aparezcan restando si no son adyacentes.
+● Ejemplos:
+o 2015 en números romanos: MMXV
+o 99 en números romanos: XCIX
+o 49 en números romanos: XLIX
+o 500 en números romanos: D
+o 19 en números romanos: XIX
+
+
+
+
+

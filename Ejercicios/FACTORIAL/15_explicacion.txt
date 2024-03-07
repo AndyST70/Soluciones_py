@@ -1,0 +1,36 @@
+Función factorial(n):
+    Si n es igual a 0:
+        Devolver 1
+    Sino:
+        Devolver n * factorial(n - 1)
+
+# n * factorial (n-1)
+
+
+#Esta función factorial(n) calcula el factorial de un número n.
+#Si n es igual a 0, devuelve 1, ya que el factorial de 0 es 1.
+#De lo contrario, devuelve n * factorial(n - 1), que es la multiplicación de n por el factorial del número anterior.
+
+
+
+Función principal():
+    Solicitar al usuario que ingrese un número entero positivo
+    Leer el número ingresado y almacenarlo en la variable numero
+
+    Si numero es menor que 0:
+        Mostrar "El número debe ser positivo."
+        Detener la ejecución del programa
+
+    Calcular el factorial del número ingresado llamando a la función factorial(numero) y almacenar el resultado en la variable resultado
+
+    Mostrar el resultado
+
+
+-----> La función principal solicita al usuario que ingrese un número entero positivo.
+Luego, verifica si el número ingresado es negativo. Si lo es, muestra un mensaje de error y detiene la ejecución del programa.
+Después, calcula el factorial del número ingresado llamando a la función factorial(numero) y almacena el resultado en la variable resultado.
+Finalmente, muestra el resultado en pantalla.
+
+
+Inicio del programa:
+    Llamar a la función principal()
