@@ -5,5 +5,5 @@ estudiante3 = ("Pedro", 16, 11)
 
 print(estudiante1)
 # Salida: ('Juan', 15, 10)
-print(estudiante2[0])
+print(estudiante2[2])
 # Salida: 'María'

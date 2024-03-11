@@ -1,0 +1,46 @@
+TRUNCAL SIGNIFICA : ELIMINAR TODA LA INFORMACIÓN EXISTENTE
+Modo r en la apertura de archivos Python
+El modo r se utiliza cuando queremos abrir el archivo para su lectura. El puntero de archivo en este modo se coloca en el punto de inicio del archivo.
+El modo r se puede utilizar en la función open() de la siguiente manera:
+            f1 = open("god.txt", "r")
+
+Modo r+ en la apertura de archivos Python
+El modo r+ se utiliza para abrir un archivo tanto para lectura como para escritura. Al igual que en el modo anterior, el puntero de archivo en este modo también se coloca en el punto de inicio del archivo.
+El modo r+ se puede utilizar en la función open() de la siguiente manera:
+            f1 = open("god.txt", "r+")
+
+Para abrir el archivo para escribir y leer en formato binario, podemos usar el modo rb+.
+            f1 = open("god.txt", "rb+")
+
+Modo w en la apertura de archivos Python
+El modo w se utiliza para abrir un archivo con el único propósito de escribir. Si el archivo ya existe, trunca el archivo a una longitud cero y, de lo contrario, crea un nuevo archivo si aún no existe. El puntero de archivo en este modo se coloca en el punto de inicio del archivo.
+El modo w se puede utilizar en la función open() de la siguiente manera:
+            f1 = open("god.txt", "w")
+
+Modo w+ en la apertura de archivos Python
+El modo w+ abre el archivo para lectura y escritura. Si el archivo ya existe, se trunca y, de lo contrario, se crea un nuevo archivo si no existe. El puntero de archivo en este modo se coloca en el punto de inicio del archivo.
+El modo w+ se puede utilizar en la función open() de la siguiente manera.
+            f1 = open("god.txt", "w+")
+
+Para abrir el archivo en formato binario, podemos usar el modo wb+.
+            f1 = open("god.txt", "wb+")
+Modo a en la apertura de archivos Python
+El modo a abre el archivo con el propósito de agregarlo. El puntero de archivo en este modo se coloca al final del archivo si ya existe en el sistema. Si el archivo no existe, se crea para escritura.
+El modo a se puede utilizar en la función open() de la siguiente manera.
+            f1 = open("god.txt", "a")
+    # 1,2,3,4,5,6, 58
+Modo a+ en la apertura de archivos Python
+El modo a+ abre el archivo para leerlo y agregarlo. El puntero de archivo en este modo se coloca al final del archivo si ya existe en el sistema. El archivo se abre en el modo anexar. Si el archivo no existe, se crea para escritura.
+El modo a+ se puede utilizar en la función open() de la siguiente manera.
+            f1 = open("god.txt", "a+")
+
+Para abrir el archivo en modo binario, podemos agregar el modo ab+.
+            f1 = open("god.txt", "ab+")
+
+Modo x en la apertura de archivos Python
+Este modo está disponible para las versiones Python 3 y superiores. El modo x abre el archivo para creación exclusiva, fallando si el archivo con ese nombre ya existe. Cuando se especifica creación exclusiva, significa que este modo no creará un archivo si el archivo con el nombre especificado ya existe. En el modo x, el archivo solo se puede escribir, pero en el modo x+, el archivo se abre como legible y escribible.
+Este modo es significativo y es útil cuando no queremos truncar accidentalmente un archivo ya existente con los modos a o w.
+El modo x se puede utilizar en la función open() de la siguiente manera.
+            f1 = open("god.txt", "x", encoding("utf-8"))
+            oración -> oraci?n 
+            

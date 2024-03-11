@@ -107,5 +107,39 @@ o 19 en números romanos: XIX
 
 
 
+21. Escriba un programa que vaya leyendo las frases que el usuario escribe y que las guarde
+conforme se escribe en un archivo de texto llamado frases.txt, el programa deja de grabar
+cuando se ingrese la palabra
+“Fin”. (Esa palabra no se guarda en el archivo)
+22. Realice un programa que manejando un archivo de texto (Entrada), muestre en pantalla la
+frecuencia de letras de dicho documento. El resultado de la frecuencia deberá mostrarlo además
+en un archivo de texto (salida).
+Requisitos:
+● La frecuencia debe mostrarla de la forma ordenada de “A” a “Z”.
+● Si la frecuencia de una letra es 0 no deberá mostrarla
+● La A, á, Á, a, debe contarla como una sola, al igual que las demás vocales (e, i, o, u).
+● La ñ y Ñ deberá contarla como una sola y mostrarla en el orden del alfabeto (después de la
+n).
+Ciclo 2024
+23. Escriba un programa que permita al usuario guardar un bloque de texto en un archivo, luego
+permita abrirlo nuevamente y mediante un botón llamado “Revisión” muestre en pantalla la
+cantidad de letras, palabras y líneas que contiene el archivo creado.
+24. Escriba un programa que permita escribir un párrafo en un archivo de texto, luego en un vector
+ingresar 5 palabras a buscar.
+Las palabras deben localizarse en el archivo de texto, si la palabra existe en el archivo colocarla
+en un nuevo vector y luego mostrar el número de veces que esta palabra se encontró dentro del
+archivo de texto.
+25. Escriba un programa que permita sumar por fila y columna los números almacenados en un
+archivo de texto.
+El archivo datos1.txt tiene tres números enteros en cada línea:
+45 12 98
+1 12 65
+7 15 76
+54 23 1
+65 2 84
+Escriba la función sumar por línea que devuelve una lista con las sumas de todas las líneas del
+archivo separadas por coma (155, 78, 98, 78, 151).
+Escriba la función sumar por columna que devuelve una lista con las sumas de todas las tres
+columnas del archivo separadas por coma (172, 64, 324)
  
 
