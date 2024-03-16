@@ -1,0 +1,28 @@
+Inicio del algoritmo Burbuja:
+
+LEER vector
+mayor ← vector[0]
+menor ← vector[0]
+mayor_c ← 0
+menor_c ← 0
+PARA i DESDE 0 HASTA len(vector) - 1
+    n ← vector[i]
+    SI n > mayor ENTONCES
+        mayor ← n
+    FIN SI
+    SI n < menor ENTONCES
+        menor ← n
+    FIN SI
+FIN PARA
+
+PARA i DESDE 0 HASTA len(vector) - 1
+    n ← vector[i]
+    SI n = mayor ENTONCES
+        mayor_c ← mayor_c + 1
+    FIN SI
+    SI n = menor ENTONCES
+        menor_c ← menor_c + 1
+    FIN SI
+FIN PARA
+
+Fin del algoritmo Burbuja.

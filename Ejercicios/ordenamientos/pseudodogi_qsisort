@@ -1,0 +1,11 @@
+Inicio del algoritmo Quicksort:
+
+LEER vector
+acumulador ← 0
+PARA i DESDE 0 HASTA len(vector) - 1
+    acumulador ← acumulador + vector[i]
+FIN PARA
+promedio ← acumulador / len(vector)
+ESCRIBIR promedio
+
+Fin del algoritmo Quicksort.
